@@ -1,2 +1,3 @@
 # Tip-calculator
 A tip calculator is a tool or application that helps users quickly determine the appropriate tip amount for a bill, typically at a restaurant, bar, or other service-based establishment. It calculates the tip based on a percentage of the total bill and can also split the total cost among multiple people if needed.
+This Python **tip calculator** takes the total bill, tip percentage, and number of people as inputs. It calculates the tip by converting the percentage into a decimal (`tip / 100`), then finds the total bill (`bill + tip`). The final amount each person pays is determined by dividing the total bill by the number of people, rounding to two decimal places. Finally, it prints the amount each person should pay.
